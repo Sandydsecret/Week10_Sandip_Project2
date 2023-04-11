@@ -24,9 +24,9 @@ public class ChromeBrowserTest {
         //Print the page source
         System.out.println("Page Source: "+driver.getPageSource());
         //Enter the email to email field
-        driver.findElement(By.name("username")).sendKeys("Maitriborad");
+        driver.findElement(By.name("username")).sendKeys("Sandydsecret");
         //Enter the password to password field
-        driver.findElement(By.name("password")).sendKeys("Maitri@123");
+        driver.findElement(By.name("password")).sendKeys("Sandy123");
         //Close the browser
         driver.close();
     }
